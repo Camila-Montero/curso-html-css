@@ -22,6 +22,12 @@
 <style>
   .back-amazon{
     color: rgb(0, 113, 133);
+    cursor: pointer;
+    transition: 0.20s;
+  }
+  .back-amazon:hover{
+    color: rgb(179, 19, 19);
+
   }
   .nike-text{
     font-weight: bold;
@@ -40,7 +46,16 @@
     font-weight: 600;
     margin-right: 10px;
     cursor: pointer;
+    transition: background-color 0.20s,
+    opacity 0.10s;
   }
+  .cart-button:hover{
+    background-color: rgb(238, 202, 20);
+  }
+  .cart-button:active{
+    opacity: 0.5;
+  }
+
   .buy-button{
     background-color: rgb(255, 164, 28);
     border: none;
@@ -49,6 +64,14 @@
     height:25px;
     font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.20s,
+    opacity 0.10s;
+  }
+  .buy-button:hover{
+    background-color:rgb(255, 138, 28) ;
+  }
+  .buy-button:active{
+    opacity: 0.5;
   }
 
 
